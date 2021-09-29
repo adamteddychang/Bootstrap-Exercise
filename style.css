@@ -96,7 +96,8 @@ a {
 }
 
 #works-section {
-  padding-top: 8rem;
+  padding: 8rem 0rem;
+
 }
 
 .works-title {
@@ -185,10 +186,11 @@ line-height: 28px;
 .card {
   background-image: url(images/project_background.png);
   background-repeat: no-repeat;
-  width: 18rem;
-  height: 25rem;
+  width: 20rem;
+  height: 24rem;
   padding: 0;
   border: none;
+  margin-top: 4rem;
 }
 
 .card .card-body {
