@@ -12,6 +12,10 @@ a {
   background-color: #3e3c3c;  
 }
 
+.bg-dark {
+  color: #1c1a19;
+}
+
 .navbar-custom .navbar-brand {
   margin-left: 3rem;
   color: #fff;
@@ -36,6 +40,11 @@ a {
 
 #main-section {
   background-color: #1c1a19;
+  margin: 0;
+  padding-bottom: 15rem;
+  background-image: url(Images/Illustration-header.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;  
 }
 
 #main-p {
@@ -72,6 +81,17 @@ a {
 
 #social-icons {
   order: -1;
-  margin-top: 5rem;
+  margin-top: 6rem;
+  padding-top: 8rem;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
+
+.social_icons_li {
+  list-style: none;
+  display: flex;
+  margin-top: 1.5rem;
+  
+}
+
