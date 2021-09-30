@@ -191,7 +191,8 @@ line-height: 28px;
   padding: 0 1rem;  
 }
 
-.card {
+ #project-cards .card {
+  background-color: none;
   background-image: url(images/pg_bk.png);
   background-repeat: no-repeat;
   width: 20rem;
