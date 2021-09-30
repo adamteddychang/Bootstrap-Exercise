@@ -183,6 +183,14 @@ line-height: 28px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 1rem;  
+}
+
 .card {
   background-image: url(images/pg_bk.png);
   background-repeat: no-repeat;
@@ -191,13 +199,6 @@ line-height: 28px;
   padding: 0;
   border: none;
   margin-top: 4rem;
-}
-
-.card .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0 1rem;  
 }
 
 .card-title, .card-text{
