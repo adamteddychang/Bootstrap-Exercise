@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&display=swap');
+
+a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #3e3c3c;
+}
+
+.bg-dark {
+  color: #1c1a19;
+}
+
+.navbar-custom .navbar-brand {
+  margin-left: 3rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+}
+
+.nav-item .nav-link {
+  margin-right: 2rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.nav-item .nav-link:hover {
+  color: #fff;
+}
+
+#main-section {
+  background-color: #1c1a19;
+  margin: 0;
+  padding-bottom: 15rem;
+  background-image: url(Images/Illustration-header.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+#main-p {
+  margin-top: 10rem;
+  padding-right: 6rem;
+}
+
+#main-p h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 81.5px;
+  color: #f55800;
+}
+
+#main-p h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+#main-p p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+#social-icons {
+  order: -1;
+  margin-top: 6rem;
+  padding-top: 8rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.social_icons_li {
+  list-style: none;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+#works-section {
+  padding: 8rem 0;
+}
+
+.works-title {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  width: auto;
+}
+
+.works-title::after {
+  background-color: #212121;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 70%;
+  left: 1.2em;
+  top: 0.6em;
+}
+
+#main-proj {
+  padding-top: 2rem;
+  display: flex;
+  padding-left: 0;
+}
+
+#main-proj-content {
+  margin-left: 24px;
+}
+
+#main-proj-title {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+#main-proj-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#lang-contain {
+  display: flex;
+  padding-left: 0;
+}
+
+.lang-li {
+  list-style-type: none;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  padding: 10px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #091e42;
+}
+
+#st-see-btn {
+  padding: 12px;
+  border-radius: 0;
+  background-color: #ff6b00;
+  width: auto;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#project-cards {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#st-see-btn2 {
+  width: 100%;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0;
+  background-color: #ff6b00;
+}
+
+#projectsModal {
+  margin-left: -320px;
+  width: 1156px;
+  height: 631px;
+}
+
+#modalTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  width: 1108px;
+  height: 92px;
+  left: 24px;
+  top: 24px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+#modalContents {
+  border: none;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+
+#project-cards .card {
+  background-image: url(Images/pg_bk.png);
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 24rem;
+  padding: 0;
+  border: none;
+  margin-top: 4rem;
+}
+
+.card-title,
+.card-text {
+  color: #fff;
+}
+
+.card-title {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.card-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#lang-contain_2 {
+  display: flex;
+  padding-left: 0;
+}
+
+.lang-li_2 {
+  list-style-type: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  padding: 10px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #fff;
+}
