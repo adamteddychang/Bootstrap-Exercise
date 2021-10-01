@@ -93,7 +93,24 @@
             <li class="lang-li_2">bootstrap</li>
             <li class="lang-li_2">Ruby</li>
           </ul>
-          
+        </div>
+        <button type="button" class="btn btn-outline-dark" id="st-see-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">See Project</button>
+      </div>
+      <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content" id="projectsModal">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">Keeping tracks of hundreds of components website</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalContents">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card" >        
@@ -171,5 +188,14 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <script>
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus()
+})
+  </script>
 </body>
 </html>
