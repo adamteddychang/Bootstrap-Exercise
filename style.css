@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&display=swap');
 
-
-
-
 a {
   color: #fff;
 }
 
-
 .navbar {
-  background-color: #3e3c3c;  
+  background-color: #3e3c3c;
 }
 
 .bg-dark {
@@ -27,7 +23,7 @@ a {
   margin-right: 5rem;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
   margin-right: 2rem;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -44,7 +40,7 @@ a {
   padding-bottom: 15rem;
   background-image: url(Images/Illustration-header.svg);
   background-repeat: no-repeat;
-  background-position: 100%;  
+  background-position: 100%;
 }
 
 #main-p {
@@ -66,17 +62,15 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-
 }
 
-#main-p p{
+#main-p p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   margin-top: 24px;
   color: #fff;
-
 }
 
 #social-icons {
@@ -92,21 +86,19 @@ a {
   list-style: none;
   display: flex;
   margin-top: 1.5rem;
-  
 }
 
 #works-section {
-  padding: 8rem 0rem;
-
+  padding: 8rem 0;
 }
 
 .works-title {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 40px;
-  line-height: 52px;  
+  line-height: 52px;
   display: flex;
-  width:auto;  
+  width: auto;
 }
 
 .works-title::after {
@@ -139,16 +131,15 @@ a {
 }
 
 #main-proj-p {
-font-family: 'Inter', sans-serif;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 #lang-contain {
   display: flex;
   padding-left: 0;
-  
 }
 
 .lang-li {
@@ -206,18 +197,18 @@ line-height: 28px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   width: 1108px;
   height: 92px;
   left: 24px;
   top: 24px;
-  font-family: Crete Round;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #modalContents {
@@ -228,11 +219,10 @@ line-height: 28px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 1rem;  
+  padding: 0 1rem;
 }
 
- #project-cards .card {
-  
+#project-cards .card {
   background-image: url(Images/pg_bk.png);
   background-repeat: no-repeat;
   width: 20rem;
@@ -242,8 +232,9 @@ line-height: 28px;
   margin-top: 4rem;
 }
 
-.card-title, .card-text{
-color: #fff;
+.card-title,
+.card-text {
+  color: #fff;
 }
 
 .card-title {
@@ -268,7 +259,7 @@ color: #fff;
 .lang-li_2 {
   list-style-type: none;
   border: none;
-  background-color:  rgba(255, 255, 255, 0.24);;
+  background-color: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
   padding: 10px 12px;
   font-family: 'Inter', sans-serif;
@@ -277,4 +268,3 @@ color: #fff;
   font-weight: 500;
   color: #fff;
 }
-
